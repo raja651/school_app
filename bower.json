@@ -1,0 +1,16 @@
+{
+  "name": "school_app",
+  "dependencies": {
+    "jquery": "latest",
+    "angular": "latest",
+    "angular-resource": "latest",
+    "angular-cookies": "latest",
+    "angular-mocks": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "angular-bootstrap": "latest",
+    "angular-ui-router": "#master",
+    "angular-ui-select": "latest",
+    "angular-sanitize": "latest"
+  }
+}

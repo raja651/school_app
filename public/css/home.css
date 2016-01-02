@@ -1,0 +1,45 @@
+body{
+	background: #AAA;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+aside{
+	position: relative;
+	top: 120px;	
+	width: 300px;
+	display: block;
+	float:left;
+	height:100%;
+	background: #FFF;
+}
+
+main{
+	color: white;
+	float: right;
+	width:60%;
+}
+
+aside.users ul li.roles{
+	box-sizing: border-box;	
+	border-radius: 20px;
+	padding:20px;
+	font-weight: bolder;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 45px;
+	color: #FFF;
+	height: 125px;
+	background: #FABA3C;
+	margin: 5px;
+}
+
+aside.users ul li.roleExpander{
+	background: #555 url('../images/rolesExpander.png') center center no-repeat;
+	background-size: contain;	
+	border-radius: 0;
+	margin: 5px;
+	height: 15px;
+}

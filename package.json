@@ -1,12 +1,19 @@
 {
-	"name": "School_app",
-	"description": "school adminststration online",
-	"version": "0.0.1",
-	"private": true,
-	"dependencies": {
-		"express": "~4.5.1",
-		"mongoose": "~3.8.0",
-		"body-parser": "~1.4.2",
-		"method-override": "~2.0.2"
-	}
+  "name": "School_app",
+  "description": "Application to manage management-parent-student cycle",
+  "main": "app.js",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+     "express": "~4.5.1",
+    "mongoose": "~3.8.0",
+    "method-override": "~2.0.2",
+    "body-parser": "^1.4.3",
+    "bower": "^1.7.2",
+    "git": "^0.1.5",
+    "karma": "^0.13.16",
+    "python": "0.0.4",
+    "socket.io": "^1.3.7",
+    "underscore": "^1.8.3"
+  }
 }

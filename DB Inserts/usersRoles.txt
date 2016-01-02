@@ -1,0 +1,4 @@
+lpush userRole "{\"userType\":\"Student\"}"
+lpush userRole "{\"userType\":\"Parent\"}"
+lpush userRole "{\"userType\":\"Teacher\"}"
+lpush userRole "{\"userType\":\"School\"}"
