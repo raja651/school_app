@@ -6,7 +6,7 @@ var Student = require("./server/models/student");
 var studentController= require('./server/controllers/student-controller');
 var router = express.Router();
 var mongoose =require('mongoose');
-var port = 8001;
+var port = process.env.PORT || 8001;
 
 mongoose.connect('mongodb://localhost:27017/test/userRoles');
 
