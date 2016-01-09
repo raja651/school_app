@@ -5,9 +5,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-      "start": "bower install && node server.js"
+      "start": "npm i && bower install && node server.js"
     },
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.4.3",
     "bower": "^1.7.2",
     "compression": "^1.6.0",
