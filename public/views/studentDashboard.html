@@ -1,0 +1,18 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome Student!!!!</title>
+</head>
+<body>
+<div ng-controller="studentController">
+	<h1>Display student names</h1>		
+	<div ng-repeat="student in studentCollection">
+		<ul>
+		<li>{{student.name}}</li>
+		<li>{{student.Id}}</li>
+		<li>{{student.schoolName}}</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
